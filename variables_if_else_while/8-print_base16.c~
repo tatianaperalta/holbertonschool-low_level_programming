@@ -8,11 +8,19 @@
 
 int main(void)
 {
-int b;
-for (b = 0; b < 10; b++)
+int n;
+char l;
+
+for (n = 0; n <= 10; n++)
 {
-  putchar((b % 10) + '0');
+putchar((n % 10) + '0');
 }
+
+for (l = 'a'; l < 'g'; l++)
+{
+putchar(l);
+}
+
 putchar('\n');
 return (0);
 }
