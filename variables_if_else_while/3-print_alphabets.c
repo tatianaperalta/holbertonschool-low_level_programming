@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 int l;
 int u;
 
-for(l = 'a'; l <= 'z'; l++)
+for (l = 'a'; l <= 'z'; l++)
 {
-  putchar(l);
+putchar(l);
 }
 
-for(u = 'A'; u <= 'Z'; u++)
+for (u = 'A'; u <= 'Z'; u++)
 {
 putchar(u);
 }
