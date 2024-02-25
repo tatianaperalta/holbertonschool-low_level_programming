@@ -1,10 +1,11 @@
 #include <stdio.h>
+
 #include "main.h"
 
 /**
+* main -  prints _putchar, followed by a new line
 *
 * Return: On success 1.
-*
 */
 
 int main(void)
