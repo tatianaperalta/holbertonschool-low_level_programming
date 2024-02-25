@@ -1,11 +1,8 @@
 #include <stdio.h>
 
-#include "main.h"
-
 /**
-* main -  prints _putchar, followed by a new line
-*
-* Return: On success 1.
+* print_alphabet: alphabet, in lowercase
+* Return: 0
 */
 
 void print_alphabet(void)
