@@ -4,7 +4,6 @@
 /**
 * print_last_digit - prints module
 * @n: represents values
-* @l: represents module
 * Return: Always 0 (Success)
 *
 */
@@ -15,5 +14,5 @@ int l = n % 10;
 if (l < 0)
 l *= -1;
 _putchar(l + '0');
-return (0);
+return (l);
 }
