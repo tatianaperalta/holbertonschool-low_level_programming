@@ -11,6 +11,6 @@
 int mul(int a, int b)
 {
 int x = a * b;
-printf("%d", x);
+printf("%i", x);
 return (0);
 }
