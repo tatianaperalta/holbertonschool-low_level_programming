@@ -3,7 +3,7 @@
 
 /**
 * _isupper defines the int
-*
+* @c defines the parameter
 * Return: Always 0.
 */
 
