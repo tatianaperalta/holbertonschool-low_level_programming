@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
-* _isupper defines the int
-* @c defines the parameter
+* _isupper - function to case
+* @c: defines the parameter
 * Return: Always 0.
 */
 
