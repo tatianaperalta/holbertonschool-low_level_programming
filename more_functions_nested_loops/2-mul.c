@@ -10,7 +10,5 @@
 
 int mul(int a, int b)
 {
-int x = a * b;
-printf("%i", x);
-return (0);
+return (a * b);
 }
