@@ -19,18 +19,21 @@ is_devidedby_3 = (n % 3) == 0;
 is_devidedby_5 = (n % 5) == 0;
 if (is_devidedby_3 && is_devidedby_5)
 {
-printf("FizzBuzz ");
+printf("FizzBuzz");
 }
 else if (is_devidedby_3)
 {
-printf("Fizz ");
+printf("Fizz");
 }
 else if (is_devidedby_5)
 {
-printf("Buzz ");
+printf("Buzz");
 }
 else
-printf("%d ", n);
+printf("%d", n);
+if (n == 100)
+continue;
+printf(" ");
 }
 printf("\n");
 return (0);
