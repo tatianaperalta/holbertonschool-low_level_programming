@@ -11,7 +11,7 @@ void print_rev(char *s)
 {
 int lenght_of_string;
 
-for (lenght_of_string = 0; s[lenght_of_string] >= 0; lenght_of_string++)
+for (lenght_of_string = 0; s[lenght_of_string] != '\0'; lenght_of_string++)
 ;
 for (lenght_of_string --; lenght_of_string >= 0; lenght_of_string--)
 {
